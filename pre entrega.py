@@ -105,7 +105,7 @@ while True:
                 print(f"Cliente {i + 1}: {cliente[0]}") #Imprime el nombre del cliente tomando el primer elemento de la lista cliente
                 productos_cliente = cliente[1] #asignar a una variable los productos del cliente, que es el segundo elemento de la lista cliente
                 for i, producto in enumerate(productos_cliente): #recorrer la lista de productos del cliente, cada producto es una lista con el nombre, categoria y precio
-                    print(f"- Producto {i + 1}: {producto[0]} ({producto[1]}): ${producto[2]}") 
+                    print(f"- Producto {i + 1}: {producto[0]} - Categoria: {producto[1]} - Precio: ${producto[2]}") 
     
     #Buscar un producto por nombre
     elif opcion == "3":
